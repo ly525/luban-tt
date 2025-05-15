@@ -1,12 +1,12 @@
 {
-  "name": "kkk",
+  "name": "ruishi",
   "description": "A new CLI generated with oclif",
   "version": "0.0.0",
   "author": "ly525",
   "bin": {
-    "kkk": "./bin/run.js"
+    "ruishi": "./bin/run.js"
   },
-  "bugs": "https://github.com/odb/kkk/issues",
+  "bugs": "https://github.com/odb/ruishi/issues",
   "dependencies": {
     "@oclif/core": "^4",
     "@oclif/plugin-help": "^6",
@@ -37,7 +37,7 @@
     "./dist",
     "./oclif.manifest.json"
   ],
-  "homepage": "https://github.com/odb/kkk",
+  "homepage": "https://github.com/odb/ruishi",
   "keywords": [
     "oclif"
   ],
@@ -45,8 +45,8 @@
   "main": "dist/index.js",
   "type": "module",
   "oclif": {
-    "bin": "kkk",
-    "dirname": "kkk",
+    "bin": "ruishi",
+    "dirname": "ruishi",
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",
@@ -59,7 +59,7 @@
       }
     }
   },
-  "repository": "odb/kkk",
+  "repository": "odb/ruishi",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "lint": "eslint",
