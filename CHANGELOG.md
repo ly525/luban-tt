@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/odb/ruishi/compare/v0.0.13...v0.0.14) (2025-05-17)
+
+
+### 📝 文档
+
+* 在README.md中添加B站视频嵌入 ([c19ca5d](https://github.com/odb/ruishi/commit/c19ca5dc78c84a982b83659a0f6d3512a1166d92))
+* 在README.md中添加可展开的详细说明 ([929e48e](https://github.com/odb/ruishi/commit/929e48e43f3b5ea1fba06f4bfd3faac4d15df048))
+* 将B站视频嵌入替换为静态图片 ([a92400d](https://github.com/odb/ruishi/commit/a92400d6d2db7d25f0253646924b25d22cf877b5))
+* 更新README.md中的iframe属性格式 ([1d38f1d](https://github.com/odb/ruishi/commit/1d38f1d85522cd83a3af1c413226a5703d26e563))
+* 移除冗余命令文档并更新README.md ([4421c9e](https://github.com/odb/ruishi/commit/4421c9efb27d1b51ad2ef6b7f04b694ea56eb78a))
+
+
+### ✨ 新功能
+
+* **tv:** 使用zx库重构录制命令，优化视频文件打开功能 ([e2c28a8](https://github.com/odb/ruishi/commit/e2c28a885a5a5029a15628d356a9c95e5b28b190))
+* **tv:** 添加自动打开录制视频文件的功能 ([ad7c1fe](https://github.com/odb/ruishi/commit/ad7c1fea08100a306096507f5f0cab59c714753e))
+
 ### [0.0.13](https://github.com/odb/ruishi/compare/v0.0.12...v0.0.13) (2025-05-17)
 
 
