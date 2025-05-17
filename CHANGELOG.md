@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/odb/ruishi/compare/v0.0.5...v0.0.6) (2025-05-17)
+
+
+### 🔨 其他更改
+
+* 添加版本控制和提交信息规范配置 ([8611266](https://github.com/odb/ruishi/commit/8611266db9c32f9a76ef7936afce43878d55897c))
+
 ### [0.0.5](https://github.com/odb/ruishi/compare/v0.0.4...v0.0.5) (2025-05-17)
 
 ### [0.0.4](https://github.com/odb/ruishi/compare/v0.0.3...v0.0.4) (2025-05-17)
