@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "author": "ly525",
   "bin": {
-    "ruishi": "./bin/run.js"
+    "ruishi": "./bin/run.js",
+    "ruishi-proxy": "sh/proxy.sh"
   },
   "bugs": "https://github.com/odb/ruishi/issues",
   "dependencies": {
@@ -35,7 +36,8 @@
   "files": [
     "./bin",
     "./dist",
-    "./oclif.manifest.json"
+    "./oclif.manifest.json",
+    "sh"
   ],
   "homepage": "https://github.com/odb/ruishi",
   "keywords": [
