@@ -1,7 +1,7 @@
 {
   "name": "ruishi",
   "description": "A new CLI generated with oclif",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "author": "ly525",
   "bin": {
     "ruishi": "./bin/run.js",
@@ -69,7 +69,7 @@
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "npm run lint",
     "prepack": "oclif manifest && oclif readme",
-    "publish": "npm run build && npm run prepack && npm run release && npm publish",
+    "pub": "npm run build && npm run prepack && npm run release && npm publish",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
     "release": "standard-version",
