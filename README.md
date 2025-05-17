@@ -34,7 +34,7 @@ $ brew install android-platform-tools
 
 使用scrcpy录制手机屏幕
 
-<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=114522887034628&bvid=BV1qzJwzAEPL&cid=30007626158&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="600" width="100%"></iframe>
+<img src="https://i0.hdslb.com/bfs/archive/edce271400deef9848467834ec6c8893bb2b68db.jpg@518w_290h_1c_!web-video-share-cover.avif" />
 
 <details>
 <summary>点击展开详细说明</summary>
