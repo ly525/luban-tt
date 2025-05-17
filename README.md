@@ -34,6 +34,8 @@ $ brew install android-platform-tools
 
 使用scrcpy录制手机屏幕
 
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=114522887034628&bvid=BV1qzJwzAEPL&cid=30007626158&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 600px; width: 100%;"></iframe>
+
 ```
 USAGE
   $ ruishi adb tv [--audio] [--display]
