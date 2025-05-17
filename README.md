@@ -36,7 +36,10 @@ $ brew install android-platform-tools
 
 <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=114522887034628&bvid=BV1qzJwzAEPL&cid=30007626158&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 600px; width: 100%;"></iframe>
 
-```
+<details>
+<summary>点击展开详细说明</summary>
+
+```bash
 USAGE
   $ ruishi adb tv [--audio] [--display]
 
@@ -59,6 +62,8 @@ EXAMPLES
 ```
 
 _See code: [src/commands/adb/tv.ts](https://github.com/odb/ruishi/blob/v0.0.13/src/commands/adb/tv.ts)_
+
+</details>
 
 ## `ruishi-proxy`
 通过 adb 给手机添加代理，需要提前
