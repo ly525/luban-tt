@@ -1,7 +1,7 @@
 {
   "name": "ruishi",
   "description": "A new CLI generated with oclif",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "author": "ly525",
   "bin": {
     "ruishi": "./bin/run.js",
@@ -27,6 +27,7 @@
     "mocha": "^10",
     "oclif": "^4",
     "shx": "^0.3.3",
+    "standard-version": "^9.5.0",
     "ts-node": "^10",
     "typescript": "^5"
   },
@@ -68,8 +69,13 @@
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "npm run lint",
     "prepack": "oclif manifest && oclif readme",
+    "publish": "npm run build && npm run prepack && npm run release && npm publish",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif readme && git add README.md"
+    "version": "oclif readme && git add README.md",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:patch": "standard-version --release-as patch"
   },
   "types": "dist/index.d.ts"
 }
