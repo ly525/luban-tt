@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/odb/ruishi/compare/v0.0.12...v0.0.13) (2025-05-17)
+
+
+### 📝 文档
+
+* 更新README.md中的版本号和代码链接 ([fa2a4f4](https://github.com/odb/ruishi/commit/fa2a4f42c4999c5e1da1fce777ac08eddbaef1bd))
+
+
+### 🔨 其他更改
+
+* 删除不再使用的视频文件 video.mp4 ([dd891fa](https://github.com/odb/ruishi/commit/dd891fa29f46513a10f92a419b017a4e7daa8d6c))
+
 ### [0.0.12](https://github.com/odb/ruishi/compare/v0.0.11...v0.0.12) (2025-05-17)
 
 ### [0.0.11](https://github.com/odb/ruishi/compare/v0.0.10...v0.0.11) (2025-05-17)
