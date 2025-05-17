@@ -1,7 +1,7 @@
 {
   "name": "ruishi",
   "description": "A new CLI generated with oclif",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "ly525",
   "bin": {
     "ruishi": "./bin/run.js",
