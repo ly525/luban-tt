@@ -20,7 +20,7 @@ $ npm install -g ruishi
 $ ruishi COMMAND
 running command...
 $ ruishi (--version)
-ruishi/0.0.0 darwin-arm64 node-v23.11.0
+ruishi/0.0.4 darwin-arm64 node-v23.11.0
 $ ruishi --help [COMMAND]
 USAGE
   $ ruishi COMMAND
@@ -70,7 +70,7 @@ EXAMPLES
   开始录制手机屏幕但不录制音频，视频将保存在当前目录
 ```
 
-_See code: [src/commands/adb/tv.ts](https://github.com/odb/ruishi/blob/v0.0.0/src/commands/adb/tv.ts)_
+_See code: [src/commands/adb/tv.ts](https://github.com/odb/ruishi/blob/v0.0.4/src/commands/adb/tv.ts)_
 
 ## `ruishi hello PERSON`
 
@@ -94,7 +94,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/odb/ruishi/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/odb/ruishi/blob/v0.0.4/src/commands/hello/index.ts)_
 
 ## `ruishi hello world`
 
@@ -112,7 +112,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/odb/ruishi/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/odb/ruishi/blob/v0.0.4/src/commands/hello/world.ts)_
 
 ## `ruishi help [COMMAND]`
 
