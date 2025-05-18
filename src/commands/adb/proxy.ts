@@ -56,25 +56,26 @@ export default class Proxy extends Command {
 
     if (!action || !['off', 'on'].includes(action)) {
       this.log('请指定 on/off，例如：proxy on 9090 或 proxy --on --port 9090')
+      this.log('please specify on/off, for example: proxy on 9090 or proxy --on --port 9090')
       return
     }
 
     if (action === 'on') {
       const ip = getLocalIp()
-      this.log(`本机IP地址: ${ip}`)
+      this.log(`本机IP地址(local ip address): ${ip}`)
       if (!ip) {
-        this.error('无法获取本机 IP 地址，请检查网络设置。')
+        this.error('无法获取本机 IP 地址，请检查网络设置(cannot get local ip address, please check network settings)')
       }
 
       await $`adb shell settings put global http_proxy ${ip}:${port}`
       const result = (await $`adb shell settings get global http_proxy`).stdout.trim()
-      this.log(`代理设置完成，IP地址为: ${ip} 端口为: ${port}`)
-      this.log(`当前设备代理: ${result}`)
+      this.log(`代理设置完成，IP地址为(proxy has been setip address): ${ip} 端口为(port): ${port}`)
+      this.log(`当前设备代理(current proxy): ${result}`)
     } else if (action === 'off') {
       await $`adb shell settings put global http_proxy :0`
       const result = (await $`adb shell settings get global http_proxy`).stdout.trim()
-      this.log('代理设置已删除')
-      this.log(`当前设备代理: ${result}`)
+      this.log('代理设置已删除(current proxy has been deleted)')
+      this.log(`当前设备代理(current proxy): ${result}`)
     }
   }
 }
