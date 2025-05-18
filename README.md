@@ -1,5 +1,6 @@
-ruishi (终端增强工具，取瑞士军刀之意)
+ruishi
 =================
+> 终端增强工具，取瑞士军刀之意
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/ruishi.svg)](https://npmjs.org/package/ruishi)
