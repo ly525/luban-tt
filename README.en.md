@@ -61,7 +61,7 @@ EXAMPLES
   Start recording without audio, video will be saved in the current directory
 ```
 
-_See code: [src/commands/adb/tv.ts](https://github.com/odb/ruishi/blob/v0.0.13/src/commands/adb/tv.ts)_
+_See code: [src/commands/adb/tv.ts](https://github.com/ly525/ruishi/blob/v0.0.13/src/commands/adb/tv.ts)_
 
 </details>
 

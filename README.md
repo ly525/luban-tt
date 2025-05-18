@@ -63,7 +63,7 @@ EXAMPLES
   开始录制手机屏幕但不录制音频，视频将保存在当前目录
 ```
 
-_See code: [src/commands/adb/tv.ts](https://github.com/odb/ruishi/blob/v0.0.13/src/commands/adb/tv.ts)_
+_See code: [src/commands/adb/tv.ts](https://github.com/ly525/ruishi/blob/v0.0.13/src/commands/adb/tv.ts)_
 
 </details>
 

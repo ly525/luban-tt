@@ -7,7 +7,7 @@
     "ruishi": "./bin/run.js",
     "ruishi-proxy": "sh/proxy.sh"
   },
-  "bugs": "https://github.com/odb/ruishi/issues",
+  "bugs": "https://github.com/ly525/ruishi/issues",
   "dependencies": {
     "@oclif/core": "^4",
     "@oclif/plugin-help": "^6",
@@ -43,7 +43,7 @@
     "./oclif.manifest.json",
     "sh"
   ],
-  "homepage": "https://github.com/odb/ruishi",
+  "homepage": "https://github.com/ly525/ruishi",
   "keywords": [
     "oclif"
   ],
@@ -65,7 +65,7 @@
       }
     }
   },
-  "repository": "odb/ruishi",
+  "repository": "ly525/ruishi",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "lint": "eslint",
