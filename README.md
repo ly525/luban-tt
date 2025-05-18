@@ -5,6 +5,7 @@ ruishi
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/ruishi.svg)](https://npmjs.org/package/ruishi)
 [![Downloads/week](https://img.shields.io/npm/dw/ruishi.svg)](https://npmjs.org/package/ruishi)
+[Enligsh Doc](./README.en.md)
 
 
 <!-- toc -->
