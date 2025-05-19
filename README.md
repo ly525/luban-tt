@@ -30,7 +30,7 @@ $ brew install android-platform-tools
 # 命令
 <!-- commands -->
 * [`ruishi adb tv`](#ruishi-adb-tv)
-* [`ruishi-proxy on`](#ruishi-proxy)
+* [`ruishi proxy on`](#ruishi-proxy)
 
 ## `ruishi adb tv`
 
@@ -67,7 +67,7 @@ _See code: [src/commands/adb/tv.ts](https://github.com/ly525/ruishi/blob/v0.0.13
 
 </details>
 
-## `ruishi-proxy`
+## `ruishi proxy`
 通过 adb 给手机添加代理，需要提前
 1. 安装: [adb](https://developer.android.com/tools/adb)
 2. 通过proxyman/charles/fiddler等工具，安装证书
@@ -77,7 +77,7 @@ _See code: [src/commands/adb/tv.ts](https://github.com/ly525/ruishi/blob/v0.0.13
 
 ```bash
 使用教程
-  $ ruishi-proxy on [port] # 开启代理，默认 9090
-  $ ruishi-proxy off # 关闭代理
+  $ ruishi proxy on [port] # 开启代理，默认 9090
+  $ ruishi proxy off # 关闭代理
 ```
 </details>
